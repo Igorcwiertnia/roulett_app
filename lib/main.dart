@@ -49,6 +49,8 @@ class HomeScreen extends StatelessWidget {
           child: Column(
             children: [
               const SizedBox(height: 20),
+              Image.asset('assets/logo.png', width: 120, height: 120),
+              const SizedBox(height: 20),
               Text(
                 'Roulette App',
                 style: GoogleFonts.poppins(

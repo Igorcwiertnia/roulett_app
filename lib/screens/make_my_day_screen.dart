@@ -82,6 +82,7 @@ class _MakeMyDayScreenState extends State<MakeMyDayScreen> {
                   child: Column(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
+                      Image.asset('assets/logo.png', width: 120, height: 120),
                       GlassmorphicContainer(
                         width: 300,
                         height: 300,
